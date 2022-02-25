@@ -1,6 +1,9 @@
 body {
   background-color: rgb(111, 111, 111);
   background-size: cover;
+  background-image: url(./Back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 p {
@@ -9,14 +12,24 @@ p {
 }
 
 #content {
+  margin: auto;
   margin-bottom: 20px;
   margin-top: 40px;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 30px;
+  width: 80%;
+  padding: 30px;
 }
 
 a {
   color: black;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: red;
+  text-decoration: none;
 }
 
 #picture {
@@ -37,4 +50,45 @@ li {
 table {
   width: 80%;
   margin: auto;
+}
+
+table, td, th
+{
+  border: 1px solid gray;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th
+{
+  color: white;
+  background-color: #087ac8;
+}
+
+td
+{
+  padding: 5px;
+}
+
+.muvelet
+{
+  display: block;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 15px;
+}
+
+p
+{
+  text-align: justify;
+  line-height: 120%;
+  text-indent: 0;
+}
+
+.op
+{
+  color: #087ac8;
+  font-weight: bold;
 }
